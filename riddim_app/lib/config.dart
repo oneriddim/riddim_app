@@ -1,0 +1,35 @@
+class Config {
+  static const String apiKey = 'AIzaSyAdywW91LpW9ZaOMdz96DlTTxi5vf-Xzuc';
+  static const String language = 'en';
+  static const String region = 'TT';
+  static const String baseUrl = "https://konnect.social";
+  static const String loginBgUrl = baseUrl + "/servicesauth/loginbg/";
+  static const String loginUrl = baseUrl + "/servicesauth/login";
+  static const String logoutUrl = baseUrl + "/servicesauth/logout";
+  static const String registerUrl = baseUrl + "/servicesauth/register";
+  static const String registerBgUrl = baseUrl + "/servicesauth/registerbg/";
+  static const String userImageUrl = baseUrl + "/servicesprofile/picture/";
+  static const String updateMyLocationUrl = baseUrl + "/serviceslocation/updatemylocation/";
+  static const String getMyLocationUrl = baseUrl + "/serviceslocation/geymylocation/";
+  static const String getNearbyUsersUrl = baseUrl + "/serviceslocation/getnearbyuserlocations/";
+  static const String ticketsCompletedUrl = baseUrl + "/servicesticket/listingcompleted/";
+  static const String ticketsUpcomingUrl = baseUrl + "/servicesticket/listingupcoming/";
+  static const String ticketReviewsUrl = baseUrl + "/servicesticket/reviews/";
+  static const String ticketUrl = baseUrl + "/servicesticket/get/";
+  static const String addTicketUrl = baseUrl + "/servicesticket/add/";
+  static const String isTicketAcceptedUrl = baseUrl + "/servicesticket/isaccepted/";
+  static const String confirmTicketUrl = baseUrl + "/servicesticket/confirm/";
+  static const String trackDriverUrl = baseUrl + "/servicesticket/trackdrivercompleted/";
+  static const String saveTicketReviewUrl = baseUrl + "/servicesticket/savereview/";
+  static const String cancelTicketUrl = baseUrl + "/servicesticket/cancel/";
+  static const String dropoffTicketUrl = baseUrl + "/servicesticket/dropoff/";
+  static const String saveProfileUrl = baseUrl + "/servicesprofile/save/";
+  static const String cardsUrl = baseUrl + "/servicespayment/listcard/";
+  static const String cardUrl = baseUrl + "/servicespayment/card/";
+  static const String saveCardUrl = baseUrl + "/servicespayment/savecard/";
+  static const String deleteCardUrl = baseUrl + "/servicespayment/deletecard/";
+  static const String saveVoucherUrl = baseUrl + "/serviceswipay/save/";
+  static const String vouchersUrl = baseUrl + "/serviceswipay/listing/";
+  static const String voucherUrl = baseUrl + "/serviceswipay/card/";
+  static const String deleteVoucherUrl = baseUrl + "/serviceswipay/delete/";
+}
